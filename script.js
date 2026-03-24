@@ -1,3 +1,13 @@
+let cambiado = false;
+
 function cambiarTexto() {
-  document.getElementById("titulo").innerHTML = "Has hecho clic 😄";
+  const titulo = document.getElementById("titulo");
+
+  if (cambiado) {
+    titulo.innerHTML = "Albert";
+  } else {
+    titulo.innerHTML = "Has hecho clic 😄";
+  }
+
+  cambiado = !cambiado; // cambia true/false
 }
