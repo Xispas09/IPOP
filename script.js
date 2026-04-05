@@ -6,7 +6,7 @@ function cambiarTexto() {
   if (cambiado) {
     titulo.innerHTML = "Albert";
   } else {
-    titulo.innerHTML = "Has hecho clic 😄";
+    titulo.innerHTML = "Index";
   }
 
   cambiado = !cambiado; // cambia true/false
